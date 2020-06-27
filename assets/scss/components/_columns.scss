@@ -5,13 +5,14 @@
     width: $container-width;
     display: flex;
     justify-content: center;
-    min-height: 250px;
+    min-height: 300px;
     border-radius: 5px;
 }
 
 .sticky {
     border: solid; 
-    height: 200px; 
+    height: 180px; 
     width: 10em;
+    margin-top: 5px;
     color:darkgray;
 }
