@@ -3,7 +3,15 @@
     
     background-color: $background-color;
     width: $container-width;
-
     display: flex;
     justify-content: center;
+    min-height: 250px;
+    border-radius: 5px;
+}
+
+.sticky {
+    border: solid; 
+    height: 200px; 
+    width: 10em;
+    color:darkgray;
 }

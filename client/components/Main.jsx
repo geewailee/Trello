@@ -98,9 +98,9 @@ class Main extends Component {
       //where the board will render with all the sticky notes
       <div className='columns-container'>
         <div className='header'>
-          <img id='flip' src='../../assets/image/cheetah.svg' alt='logo'></img>
-          <h1>Cheetah</h1>
-          <img src='../../assets/image/cheetah.svg' alt='logo'></img>
+          <h1>test</h1>
+          {/* <img id='flip' src='../../assets/image/cheetah.svg' alt='logo'></img> */}
+          {/* <img src='../../assets/image/cheetah.svg' alt='logo'></img> */}
         </div>
         {/* <h1>This SHOULD SAY: {this.props.info.data.text}</h1> */}
         <div className='boardBody'> 
