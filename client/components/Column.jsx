@@ -23,11 +23,12 @@ const Column = (props) => {
 
   return (
     <div>
-      <div class='ColumnName'>
-      <h1>{props.column}</h1>
-      </div>
-      <div className='column'>
-        <Box className='stickyNote' ref={drop} p={2}><h1 className='test'> {props.children}</h1></Box>
+      <div  >
+        <h1>{props.column}</h1>
+        <Box className='stickyNote' ref={drop} p={2}><h1 className='test' > {props.children}</h1></Box>
+        {/* <Box className='box' ref={drop} style={{backgroundColor: isOver ? "#ABABAB" : '#f5f5f1',height:700, width: 300}}   w="30%" p={2} color="black"><h1 className='test'> {props.children}</h1>
+        </Box> */}
+
       </div>
     </div>
   );
